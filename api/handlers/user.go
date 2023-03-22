@@ -3,7 +3,7 @@ package handlers
 import (
 	"encoding/json"
 	"net/http"
-	"go-server/internal/db"
+	"github.com/lyodekken/go/infra/db"
 )
 
 func CreateUserHandler(w http.ResponseWriter, r *http.Request, dt *db.Queries) {

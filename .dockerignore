@@ -1,0 +1,6 @@
+# arquivos específicos do projeto que devem ser ignorados
+go.mod
+go.sum
+
+# diretórios que devem ser ignorados
+vendor/
