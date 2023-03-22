@@ -1,3 +1,4 @@
 .idea
 .env
-.go-server.exe
+.main.exe
+documentation/swagger.json

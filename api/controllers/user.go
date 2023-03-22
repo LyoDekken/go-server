@@ -22,6 +22,7 @@ params := db.CreateUserParams{
     Name:     user.Name,
     Email:    user.Email,
     Password: user.Password,
+    Role:     db.UsersRole(user.Role),
 }
 
 // Obter uma conexão com o banco de dados

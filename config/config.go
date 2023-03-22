@@ -13,7 +13,7 @@ var (
 	StringConexaoBanco = ""
 
 	// Porta onde a API vai estar rodando
-	Porta = 0
+	Porta = 5000
 
 	// SecretKey é a chave que vai ser usada para assinar o token
 	SecretKey []byte
